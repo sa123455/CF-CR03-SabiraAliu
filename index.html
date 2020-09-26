@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car insurances Web Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!--Header Section-->
+        <header>
+            <img src="img/logo.png" alt="header logo">
+            <a href="https://www.codefactory.wien "><img id="banner1" src="img/banner.png"></a>
+        </header>
+
+        <!--Navigation section at the top of the page-->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="team.html">Team</a></li>
+
+            </ul>
+        </nav>
+
+        <!--here comes the Main container with image Background and js Part-->
+        <div class="mainContainer">
+            <img src="img/traffic-332857_1920.jpg" alt="bgImage">
+            <h1 id="car">Car Insurance</h1>
+            <div class="jsPart">
+                <!--js tekst part-->
+                <div class="title">
+                    <h1>Great coverage begins<br>with a costom quote</h1>
+                </div>
+                <div class="formSection">
+                    <div class="row1">
+                        <div class="forms">
+                            <p>Your Name:</p>
+                            <input type="text" id="name" placeholder="name">
+                        </div>
+                        <div class="forms">
+                            <p>Age:</p>
+                            <input type="text" id="age" placeholder="age">
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row1">
+                    <div class="forms">
+                        <p>Country:</p>
+                        <select id="select">
+                            <option value="at">Austria</option>
+                            <option value="hu">Hungary</option>
+                            <option value="gr">Greece</option>
+                        </select>
+                    </div>
+                    <div class="forms">
+                        <p>Hourse power of your car:</p>
+                        <input type="text" id="horse" placeholder="horsepower">
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="submit" id="submit_btn" value="Calculate">
+                </div>
+
+                <div id="answer"></div>
+
+            </div>
+
+        </div>
+        <div class="car-covarage">
+            <div class="text">
+                <h1>Un-complicated car coverage.</h1>
+                <h3>Understanding your coverage options shouldnt be so hard<br>We will guide you through available coverage types
+                    <br>starting with who and what is covered</h3>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="card">
+            <h3>What comes standard</h3>
+            <p>The coverage you need</p>
+            <br>
+            <ul class="fa-ul">
+                <li class="check">Bodily Injury Liability</li>
+                <li class="check">Property Damage</li>
+                <li class="check">Medical Payments</li>
+            </ul>
+            <br>
+            <br>
+
+
+            <h4>Benefits</h4>
+            <p>12-month rate guaratee &#124; 24/7 costomer service &#124; Lifetime Repair Guarantee </p>
+        </div>
+        <div class="card">
+            <h3>Add-on Protection & covarage</h3>
+            <p>For more peace of mind</p>
+            <br>
+            <ul>
+                <li class="check">Better Car Replacement</li>
+                <li class="check">Towing and labor</li>
+                <li class="check">Rental car coverage</li>
+            </ul>
+            <br>
+            <br>
+            <h4>Earned Benefits</h4>
+            <p>Accidental Forgivenes &#124; New car Replacement</p>
+        </div>
+
+    </div>
+    <footer>
+        <nav>
+            <ul>
+                <li><a class="navFooter" href="#">Home</a></li>
+                <li><a class="navFooter" href="team.html">Team</a></li>
+
+            </ul>
+        </nav>
+        <div class="logoF">
+            <a href="https://www.codefactory.wien"><img class="logo2" src="img/logo-inv.png" alt=" Logo"></a>
+        </div>
+
+        <div class="footertext">
+            <p>Sabira Aliu- Code Factory 2020</p>
+        </div>
+    </footer>
+
+    <script defer src="script.js"></script>
+</body>
+
+</html>
